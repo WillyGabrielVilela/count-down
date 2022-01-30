@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+}
+
+.top {
+    width: 1366px;
+    height: 133px;
+    left: 0px;
+    top: 0px;
+}
+
+h1 {
+    position: absolute;
+    width: 486px;
+    height: 54px;
+    left: 127px;
+    top: 187px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+
+    color: var(--purple);
+
+}
+
+h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+    color: var(--text-color);
+}
+
+.days {
+    position: absolute;
+
+    left: 142px;
+    top: 260px;
+
+}
+
+.hours {
+    position: absolute;
+
+    left: 285px;
+    top: 260px;
+
+}
+
+.minutes {
+    position: absolute;
+
+    left: 410px;
+    top: 260px;
+
+}
+
+.secounds {
+    position: absolute;
+
+    left: 536px;
+    top: 260px;
+}
+
+.timer {
+    /* position: absolute;
+width: 494px;
+height: 79px;
+left: 123px;
+top: 280px; */
+
+
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 108px;
+
+    color: var(--black);
+}
+
+.day {
+    position: absolute;
+    width: 30px;
+    height: 21px;
+    left: 123px;
+    top: 280px;
+
+
+}
+
+.hour {
+    position: absolute;
+    width: 41px;
+    height: 21px;
+    left: 273px;
+    top: 280px;
+
+
+}
+
+.minute {
+    position: absolute;
+    width: 54px;
+    height: 21px;
+    left: 405px;
+    top: 280px;
+
+
+}
+
+.secound {
+    position: absolute;
+    width: 70px;
+    height: 21px;
+    left: 536px;
+    top: 280px;
+}
+
+.p1 {
+    position: absolute;
+    left: 225px;
+    top: 276px;
+
+}
+
+.p2 {
+    position: absolute;
+    left: 365px;
+    top: 276px;
+
+}
+
+.p3 {
+    position: absolute;
+    left: 500px;
+    top: 276px;
+
+}
+
+aside {
+    position: absolute;
+    width: 607px;
+    height: 435px;
+    left: 699px;
+    top: 150px;
+
+}
+
+.throw {
+    position: absolute;
+
+    left: 196px;
+    top: 405px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: var(--text-color)
+}
+
+button {
+    position: absolute;
+    width: 160px;
+    height: 46px;
+    left: 290px;
+    top: 457px;
+
+    background: #6C63FF;
+    border-radius: 10px;
+    border: none;
+
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFF;
+
+    transition-duration: 0.3s;
+}
+
+button:hover{
+    background: #8680ff;
+
+}
+
+.bottom {
+    position: absolute;
+
+    left: 0px;
+    top: 704px;
+    
+}
+
