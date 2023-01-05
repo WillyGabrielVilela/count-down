@@ -12,6 +12,7 @@ Desafio que consistia em  criar uma página de coming soon para o lançamento de
 <ul>
   <li>HTML</li>
   <li>CSS</li>
+  <li>Javascript</li>
 </ul>
 
 ## 🔖 Layout do Projeto
